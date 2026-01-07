@@ -89,6 +89,20 @@ Next.js is used exclusively as a thin HTTP wrapper around the core protocol:
 
 The Next.js layer is approximately 60 lines of HTTP request/response handling. All protocol logic remains in `core/`.
 
+## Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed:
+- **Node.js**: v18 or higher ([Download](https://nodejs.org/))
+- **npm**: v9 or higher (comes with Node.js)
+- **Git**: For cloning the repository ([Download](https://git-scm.com/))
+
+Verify installations:
+node --version  # Should be v18.0.0 or higher
+npm --version   # Should be v9.0.0 or higher
+
+
 ## CLI Usage
 
 The CLI tool (`scripts/cli.ts`) provides direct access to protocol operations without Next.js:
